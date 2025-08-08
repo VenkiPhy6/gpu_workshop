@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --partition=a30-4.6gb
+#SBATCH --partition=a30
 #SBATCH --mem=16GB                         # Memory 
 #SBATCH --job-name=dp_ddp              # Job Name
 #SBATCH -o LOG_pytorch                            # Log file
