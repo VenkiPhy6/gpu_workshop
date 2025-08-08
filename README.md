@@ -6,6 +6,9 @@ Aug 8, 2025
 
 8:30-13:00
 
+Event details: [HPC@UTD](https://calendar.utdallas.edu/event/accelerating-python-with-gpus-workshop-2)
+
+All the code is from the HPC team/Thien Tran. (See their [repo](https://gitlab.circ.utdallas.edu/hpc-utd/workshop/accelerating-python-with-gpus))
 
 **Quick notes:**
 1. For Numpy to run on multiple cores within a node, you need to set some env variable in the beginning of the SLURM script.
