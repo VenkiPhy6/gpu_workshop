@@ -19,8 +19,8 @@ Aug 8, 2025
       1. You can use mapped/pinned memory
       2. You can write kernel functions
 6. Numba lets you treat Python like its compiled (JIT)
-   1. `@jit` decorator
+   1. `@jit` and `@cuda.jit` decorator
    2. `pip3 install numba` and then `from numba import jit`
-      1. NVidia defined its own datatypes (`tf32`) to speed things up (instead of `float32`). This is activated by `fastmath` arg to the `cuda.jit` decorator
+      1. NVidia defined its own datatypes (`tf32`) to speed things up (instead of `float32`). This is activated by `fastmath` arg to the `@cuda.jit` decorator
 7. TensorFlow can fallback to CPU if no GPU but Pytorch won't
 
