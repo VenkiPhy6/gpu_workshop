@@ -18,4 +18,5 @@ module load cuda/12.6
 source /home/vxs210125/work/gpu_workshop/py_gpuenv/bin/activate
 #python3 benchmark_dp_ddp.py --mode dp
 export CUDA_VISIBLE_DEVICES=0,1
-torchrun --nproc_per_node=2 Heat_diffusion_Cupy.py --mode ddp
+# torchrun --nproc_per_node=2 Heat_diffusion_Cupy.py --mode ddp
+python3 Heat_diffusion_Cupy.py
